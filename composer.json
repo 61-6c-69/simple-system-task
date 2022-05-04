@@ -1,0 +1,21 @@
+{
+    "name": "ali/simple-system",
+    "description": "task for simple system",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ali",
+            "email": "alifarshad2000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.4",
+        "catfan/medoo": "dev-master"
+    },
+    "autoload":{
+      "psr-4":{
+        "SimpleSystem\\": "src/"
+      }
+    }
+}
